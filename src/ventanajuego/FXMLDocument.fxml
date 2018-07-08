@@ -5,9 +5,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ventanajuego.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ventanajuego.FXMLDocumentController">
     <children>
-        <Button fx:id="button" layoutX="219.0" layoutY="80.0" onAction="#handleButtonAction" onMouseDragEntered="#mouseDentroBoton" text="Guardar" />
+        <Button fx:id="button" layoutX="219.0" layoutY="80.0" onAction="#handleButtonAction" text="Guardar" />
         <Label fx:id="nombre" layoutX="38.0" layoutY="51.0" minHeight="16" minWidth="69" text="Nombre:" />
       <TextField fx:id="Textnombre" layoutX="38.0" layoutY="80.0" />
     </children>
