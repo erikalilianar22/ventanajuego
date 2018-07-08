@@ -35,7 +35,7 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
-        //System.out.println(Conexion.conectar());
+        System.out.println(Conexion.conectar());
         
     }
     
@@ -51,7 +51,7 @@ public class FXMLDocumentController implements Initializable {
         Jugador jugador= new Jugador();
         jugador.nombre.set(Textnombre.getText());
         jugadores.add(jugador);
-        Conexion.conectar();
+        //Conexion.conectar();
     }
     
 }
