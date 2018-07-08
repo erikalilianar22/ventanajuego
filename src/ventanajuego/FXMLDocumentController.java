@@ -35,7 +35,7 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
-        System.out.println(Conexion.conectar());
+        //System.out.println(Conexion.conectar());
         
     }
     

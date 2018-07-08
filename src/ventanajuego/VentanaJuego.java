@@ -26,6 +26,7 @@ public class VentanaJuego extends Application {
         
         stage.setScene(scene);
         stage.show();
+       //Conexion.conectar();
     }
 
     /**
@@ -33,7 +34,7 @@ public class VentanaJuego extends Application {
      */
     public static void main(String[] args) {
         launch(args);
-       // Conexion.conectar();
+     // Conexion.conectar();
     }
     
 }
