@@ -16,6 +16,9 @@ import java.util.logging.Logger;
  * @author erikav
  */
 public class Conexion {
+    public static Object getInstance(){
+        return null;  
+    }
     private String user;
     private String pass;
     private String driver;

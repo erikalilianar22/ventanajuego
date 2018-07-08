@@ -5,6 +5,7 @@
  */
 package ventanajuego;
 
+import conexion.Conexion;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -32,6 +33,7 @@ public class VentanaJuego extends Application {
      */
     public static void main(String[] args) {
         launch(args);
+       // Conexion.conectar();
     }
     
 }

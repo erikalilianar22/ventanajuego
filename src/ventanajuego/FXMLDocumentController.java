@@ -6,6 +6,7 @@
 package ventanajuego;
 
 import Jugador.Jugador;
+import conexion.Conexion;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -34,7 +35,7 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
-        System.out.println("Guardar");
+        System.out.println(Conexion.conectar());
         
     }
     
@@ -50,7 +51,7 @@ public class FXMLDocumentController implements Initializable {
         Jugador jugador= new Jugador();
         jugador.nombre.set(Textnombre.getText());
         jugadores.add(jugador);
-        
+        Conexion.conectar();
     }
     
 }
