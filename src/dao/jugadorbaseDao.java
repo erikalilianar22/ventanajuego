@@ -21,7 +21,7 @@ import modelo.jugadorbase;
  * @author erikav
  */
 public class jugadorbaseDao implements metodos<jugadorbase>{
-    private static final String SQL_INSERT="INSERT INTO jugador(nombre) VALUES (?)";
+    private static final String SQL_INSERT="INSERT INTO jugador(id, nombre) VALUES (?, ?)";
     private static final String SQL_UPDATE="UPDATE jugador SET nombre=? WHERE id=?";
     private static final String SQL_READALL="SELECT *FROM jugador";
     private static final Conexion con= Conexion.conectar();

@@ -5,6 +5,7 @@
  */
 package Jugador;
 
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 /**
@@ -14,6 +15,7 @@ import javafx.beans.property.SimpleStringProperty;
 public class Jugador {
     //public String nombre;
     public SimpleStringProperty nombre= new SimpleStringProperty();
+    public SimpleIntegerProperty id = new SimpleIntegerProperty();
     
     public Jugador(){
     }
@@ -37,7 +39,9 @@ public class Jugador {
     public String getNombre() {
         return nombre.get();
     }
-
+    public Integer getId(){
+        return id.get();
+    }
 
     
 }
